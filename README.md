@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="public/images/maeTech-API" alt="mulher sentada na frente do computador, e logomarca MaeTech" width="500">
+  <img src="public/images/maeJPG" alt="mulher sentada na frente do computador, e logomarca MaeTech" width="500">
 <p align="center">ProviHack Woman 2021 - Mudança de carreira e reinserção no mercado<p>
 </h1>
 
