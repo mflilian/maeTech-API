@@ -26,6 +26,8 @@ Assim, construímos uma rede de apoio para apoiar mais mulheres e fazer uma pont
 - [x] A API deve permitir alterações nos currículos;
 - [x] A API deve permitir que as candidatas visualizem empresas que estão contratando;
 - [x] A API deve permitir a exclusão de currículos das candidatas do banco de dados.
+- [x] A API deve permitir o acesso a mentorias;;
+- [x] A API deve permitir que as usuarias se candidatem a trabalho voluntário;
 - [x] Criação de usuário e login para a usuária com acesso sem restrição;
 - [x] Criação de usuário e login para recrutador, somente visualização, seleção e postagem de vagas.
 
@@ -78,7 +80,8 @@ Rota API
 | Rotas  Candidatas                        |                                                    |
 | ---------------------------------------  | -------------------------------------------------- | 
 | GET/candidatas/buscar/:id                | Encontra candidata pelo ID                         |
-| GET/candidatas//buscar                   | Encontra as empresas cadastradas                   |
+| GET/candidatas/buscar                    | Encontra as empresas cadastradas                   |
+| GET/candidatas/vagas                     | Encontra as vagas cadastradas                      |
 | POST/candidatas/                         | Registra nova candidata                            |
 | POST/candidatas/login                    | Login candidata                                    |
 | PATCH/candidatas/alterar/:id             | Alterar ou acrescentar dados currículo             |
@@ -98,6 +101,7 @@ Rota API
 | Rotas Vagas                              |                                                    |
 | ---------------------------------------  | -------------------------------------------------- | 
 | GET/vagas                                | Acessar todas as vagas cadastradas                 |
+
 
 
 
