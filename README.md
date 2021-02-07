@@ -1,15 +1,10 @@
 <h1 align="center">
-  <img src="public/images/maeJPG" alt="mulher sentada na frente do computador, e logomarca MaeTech" width="500">
+  <img src="public/images/mae.JPG" alt="mulher sentada na frente do computador, e logomarca MaeTech" width="500">
 <p align="center">ProviHack Woman 2021 - Mudança de carreira e reinserção no mercado<p>
 </h1>
 
 #  MãeTech | 
 Projeto desenvolvido para o hackaton da [ProviHack Woman 2021](https://marketing.provi.com.br/provi-hack-woman) com o objetivo de impulsionar a carreira de mulheres no mercado de tecnologia.
-
-<p align="center">
-
-Aplicação disponível [aqui](https://diversyhub.herokuapp.com/) :black_heart: 
-<p>
 
 ## Objetivo
 
