@@ -20,6 +20,7 @@ Assim, construímos uma rede de apoio para apoiar mais mulheres e fazer uma pont
 
 ### Funcionalidades:
 
+- [x] Sistema de recomendação mútuo de candidatas para empresa disponível [aqui](https://github.com/carolvieirav/MaeTechDataRepo) 
 - [x] O schema das candidatas deve possuir os seguintes campos: id (autogerado), nome completo, telefone/email para contato, data de nascimento, local de nascimento, escolaridade, objetivo, resumo profissional, cargo pretendido, flexibilidade, beneficios pretendidos, salario pretendido, regime pretendido (CLT ou PJ), area de experiência e local pretendido (home office ou presencial).
 - [x] A API deve permitir o cadastro do currículo da candidata;
 - [x] A API deve permitir a visualização dos currículos cadastrados;
@@ -30,6 +31,7 @@ Assim, construímos uma rede de apoio para apoiar mais mulheres e fazer uma pont
 - [x] A API deve permitir que as usuarias se candidatem a trabalho voluntário;
 - [x] Criação de usuário e login para a usuária com acesso sem restrição;
 - [x] Criação de usuário e login para recrutador, somente visualização, seleção e postagem de vagas.
+
 
 ### Instalação
 
