@@ -1,3 +1,7 @@
+const swaggerUi = require('swagger-ui-express');
+const swaggerFile = require('../swagger/swagger_output.json');
+
+
 const express = require("express")
 const cors = require('cors');
 const helmet = require('helmet');
@@ -15,6 +19,9 @@ const dataBase = require("./model/database");
 dataBase.connect()
 
 const app = express()
+
+app.use('/minha-rota-de-documentacao', swaggerUi.serve, swaggerUi.setup(swaggerFile));
+
 
 app.use(morgan('dev'))
 app.use(helmet())

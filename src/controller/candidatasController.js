@@ -128,7 +128,7 @@ const login = (req, res) => {
     }
   });
   empresaModel.find((err, empresa) => {
-    if (err) { console.log("chegou ou n caraio?")
+    if (err) { 
       return res.status(424).send({ message: err.message });
     }
     res.status(200).send(empresa);
