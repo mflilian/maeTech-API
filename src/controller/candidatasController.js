@@ -121,12 +121,7 @@ const login = (req, res) => {
 //// TODAS AS EMPRESAS 
 
   const allEmpresas = (req, res) => {
-  const token = auth(req, res);
-  jwt.verify(token, SECRET, (err) => {
-    if (err) {
-      return res.status(403).send("Token inválido");
-    }
-  });
+  
   empresaModel.find((err, empresa) => {
     if (err) { 
       return res.status(424).send({ message: err.message });
